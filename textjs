@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>kill them</title>
+	</head>
+	<body>
+		<p>Billy,Arthur and Russell are your best firends , btw , they were kidnapped by a killer</p>
+		<button onclick="killergame()">kill them</button>
+
+		<script type="text/javascript">
+			function killergame(){
+				var userChoice = prompt("Hey My frined! Who want to be killed?", "Billy? ,Arthur? or Russell?");
+				if (userChoice === "Billy"){
+					var victim = Math.random();
+					if(victim <0.5){
+						document.write("Billy: Fuck You!"+ "");
+						var killerAsk = prompt("He fucks you! Kill him or not??", "yes , no");
+							if(killerAsk === "yes"){
+								document.write("He is dead!");
+							} else {
+								document.write("He run away!")
+							}
+					}
+
+					else{
+						document.write("You cant kill him, He run away!")
+						}
+					}
+				if (userChoice === "Arthur"){
+					var victim = Math.random();
+					if(victim <0.5){
+						document.write("Arthur: Fuck You!"+ "");
+						var killerAsk = prompt("He fucks you! Kill him or not??", "yes ,no");
+							if(killerAsk === "yes"){
+								document.write("He is dead!");
+							} else {
+								document.write("He run away!")
+							}
+					}
+
+
+					else{
+						document.write("You cant kill him, He run away!")
+						}
+					}
+
+				if (userChoice === "Russell"){
+					var victim = Math.random();
+					if(victim <0.5){
+						document.write("Russell: Fuck You!"+ "");
+						var killerAsk = prompt("He fucks you! Kill him or not??", "yes , no");
+							if(killerAsk === "yes"){
+								document.write("He is dead!");
+							} else {
+								document.write("He run away!")
+							}
+					}
+
+					else{
+						document.write("You cant kill him, He run away!")
+						}
+					}
+			}
+			
+
+		</script>
+	</body>
+
+
+</html>
